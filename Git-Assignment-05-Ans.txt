@@ -1,0 +1,116 @@
+# Date 17 March 2025
+-------------------------
+Q. How will you check installed git version?
+ans: Using git --version or git -v  
+
+
+ How will you check installed git version?
+ans: Using git --version or git -v  
+
+
+
+Q. Which command is used to check the status of local repository?
+ans: Using git status
+
+ Which command is used to check the status of local repository?
+ans: Using git status
+
+Q. What is use of git init command?
+ans: git init command is used to initialize a git new repository.
+
+
+Q. Suppose,I have added four new files say F1.txt,F2.txt,F3.txt and  
+   f4.txt in working directory.If I check the status of local repository then what is status of local repository?
+ans: we enter git status it will show all four file are present in untracked files F1.txt F2.txt F3.txt and F4.txt
+ are display in red color.
+
+Q. F1.txt file status is untracked,I want to add this file into 
+   stagging area,write git command to add into stagging area?
+ans: using  " git add F1.txt "  it will add in stagging area
+    
+
+
+Q. I have 2 untracked files,2 modified files and 1 delete files,write a  
+   git command to add all these files into stagging area at a time.
+ans: using " git add -A or git add ."
+
+
+Q. Suppose I have 10 files in working area,some are text files,some are 
+   log files,some are pdf files,write git command for below requirement
+   1. Add only text files into stagging area. 
+     ans:git add *.txt
+
+   2. Add only log files into stagging area.
+      and: git add *.log
+
+   3. Add only pdf files into stagging area.
+      ans: git add *.pdf
+
+   4. Add only text and log files into stagging area
+      ans: git add *.txt *.log
+
+   5. Add only pdf and log files into stagging area.
+      ans git add *.pdf *.log
+
+   
+Q. Suppose I have A1.txt file,status of that file is untracked,now I am 
+   adding A1.txt into stagging area so I have written below command,now guess what will happen if below command is executed? I mean which file get added into stagging area.
+   command: git add a1.txt
+  and git add a1.txt  added into staging area
+
+   
+Q. State the following statement are valid or invalid
+1. git commands are case insensitive
+ ans: all git command are case sensitive.
+
+2. git is maintained by windows
+ and: git is maintainde by linux operating system .
+
+3. github is maintained by Linux
+ and: github is maintained by microsoft .
+
+4. we can execute git commands on normal directory
+ ans:we cannot execute Git commands in a normal directory unless it is a Git repository.
+ 
+
+5. gitbash is version control tool
+ ans: git is version control tool and gitbash is command line interface for windows user to use git
+
+6. git restore --stagged command removes a file from commit area
+   and put into working area.
+ ans:git restore --stagged command are used to unstage files put into working area
+
+
+7. We can add Untracked files directly into commit area?
+ans : we cannot add untracked files directly into commit area.
+ 
+
+8. We can add modified files directly into stagging area.
+ ans: we can add modified files into stagging area
+       git add -u
+       git add --a
+       git add -A
+
+9. If local repository file is deleted from our system then no 
+   need to add it into commit area.
+   ans:if you delete tracked file we need to add into stagging area and commit area
+        if you delete untracked file no need to add stagging area and commit area
+
+10. git bash display committed file names in green color
+  ans:if we add commit area files  not showing color and files 
+
+11. git bash display deleted file names in red color
+  ans: it will display in red color when we run git status
+
+12. When we add a file into stagging area then index is created or 
+    index is updated.
+ ans: When you add a file to the staging area, the Git index is updated, not created.
+
+13. Every files has unique index.
+ ans: every files dont have unique index 
+      every files entry into git index : when we adding staging area
+-----------------------------------------------------------------------
+
+
+
+
