@@ -1,3 +1,5 @@
+Date 03/04/2025
+
 1. What does the git pull command do?
 A) Downloads changes from the remote repository but does not merge them
 B) Downloads and merges changes from the remote repository into the local branch
