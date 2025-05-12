@@ -1,0 +1,3 @@
+hi 
+we are added file content
+second line added int f1.txt
